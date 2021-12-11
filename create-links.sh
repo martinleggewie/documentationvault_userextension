@@ -8,3 +8,4 @@ echo ""
 currentpath=`pwd`
 
 ln -s $currentpath/.obsidian/appearance.json    $currentpath/../obsidian-vault_main/.obsidian/appearance.json
+ln -s $currentpath/.obsidian/hotkeys.json       $currentpath/../obsidian-vault_main/.obsidian/hotkeys.json
