@@ -7,7 +7,7 @@ echo ""
 
 currentpath=`pwd`
 
-ln -s $currentpath/.obsidian/snippets           $currentpath/../obsidian-vault_main/.obsidian/snippets
-ln -s $currentpath/.obsidian/themes             $currentpath/../obsidian-vault_main/.obsidian/themes
-ln -s $currentpath/.obsidian/appearance.json    $currentpath/../obsidian-vault_main/.obsidian/appearance.json
-ln -s $currentpath/.obsidian/hotkeys.json       $currentpath/../obsidian-vault_main/.obsidian/hotkeys.json
+ln -sf $currentpath/.obsidian/snippets          $currentpath/../obsidian-vault_main/.obsidian
+ln -sf $currentpath/.obsidian/themes            $currentpath/../obsidian-vault_main/.obsidian
+ln -sf $currentpath/.obsidian/appearance.json   $currentpath/../obsidian-vault_main/.obsidian
+ln -sf $currentpath/.obsidian/hotkeys.json      $currentpath/../obsidian-vault_main/.obsidian
