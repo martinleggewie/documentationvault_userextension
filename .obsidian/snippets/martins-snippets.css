@@ -1,0 +1,179 @@
+/* Martin's Obsidian CSS snippets */
+
+.markdown-preview-view {
+    line-height: 1.6;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    --text-accent-hover: var(--text-accent);
+}
+.theme-light .markdown-preview-view {
+    --text-accent: #003cff;
+}
+.theme-dark .markdown-preview-view {
+    --text-accent: #8fbfff;
+}
+.markdown-preview-view .internal-link,
+.markdown-preview-view .external-link {
+    text-decoration: none;
+}
+.markdown-preview-view .internal-link:hover,
+.markdown-preview-view .external-link:hover {
+    text-decoration: underline;
+}
+.markdown-preview-view h1 {
+    font-size: 4ex;
+}
+.markdown-preview-view h2 {
+    font-size: 3ex;
+}
+.markdown-preview-view h3 {
+    font-size: 2.5ex;
+}
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4
+{
+    margin-top: 3ex;
+    margin-left: 0px;
+
+    font-family: sans-serif !important;
+    font-style: normal;
+    font-weight: 900 !important;
+}
+
+
+.CodeMirror-activeline .CodeMirror-linebackground {
+    border-top: dotted;
+    border-top-width: 1px;
+    border-top-color: #888888;
+    border-bottom: dotted;
+    border-bottom-width: 1px;
+}
+.theme-light .CodeMirror-activeline .CodeMirror-linebackground {
+    border-top-color: #222222;
+    border-bottom-color: #222222;
+}
+.theme-dark .CodeMirror-activeline .CodeMirror-linebackground {
+    border-top-color: #cccccc;
+    border-bottom-color: #cccccc;
+}
+
+.cm-s-obsidian {
+    font-family: sans-serif;
+    padding-left: 50px;
+    padding-right: 0px;
+
+}
+.theme-light .cm-s-obsidian {
+    --text-accent: #003cff;
+    color: #000000;
+}
+.theme-dark .cm-s-obsidian {
+    --text-accent: #8fbfff;
+}
+.theme-light .cm-s-obsidian span.cm-formatting-link {
+    color: #003cff;
+}
+.theme-light .cm-s-obsidian span.cm-url {
+    color: #003cff;
+}
+.theme-dark .cm-s-obsidian span.cm-formatting-link {
+    color: #8fbfff;
+}
+.theme-dark .cm-s-obsidian span.cm-url {
+    color: #8fbfff;
+}
+
+.cm-s-obsidian span.cm-formatting-list {
+    color: var(--text-normal);
+}
+
+.cm-s-obsidian .HyperMD-list-line {
+    padding-top: 0ex;
+}
+
+.cm-s-obsidian .HyperMD-header {
+    font-family: sans-serif !important;
+    font-style: normal;
+    font-weight: 900 !important;
+    padding-left: 5px !important;
+    margin-left: 0 !important;
+    border-left: 0 !important;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+.cm-header-1 {
+    font-size: 2.5em;
+}
+.cm-header-2 {
+    font-size: 1.6em;
+}
+.cm-header-3 {
+    font-size: 1.37em;
+}
+.cm-header-4 {
+    font-size: 1.25em;
+}
+
+
+.tag {
+    font-size: 18px;
+    padding: 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+.tag:hover {
+    text-decoration: underline;
+}
+.theme-light .cm-s-obsidian span.cm-hashtag {
+    color: #003cff;
+    text-decoration: none;
+}
+.theme-dark .cm-s-obsidian span.cm-hashtag {
+    color: #8fbfff;
+    text-decoration: none;
+}
+
+
+.theme-light pre[class*="language-"] {
+    background: var(--background-primary);
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10;
+    font-size: 16px;
+    border-bottom: solid;
+    border-color: #888888;
+    border-bottom-width: 1px;
+    margin-left: 0px;
+    
+}
+.theme-light .token.atrule,
+.theme-light .token.boolean,
+.theme-light .token.number {
+    color: #003cff;
+}
+
+.theme-dark pre[class*="language-"] {
+    background: var(--background-primary);
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10;
+    font-size: 16px;
+    border-bottom: solid;
+    border-color: #888888;
+    border-bottom-width: 1px;
+    margin-left: 0px;
+    
+}
+.theme-dark .token.atrule,
+.theme-dark .token.boolean,
+.theme-dark .token.number {
+    color: #8fbfff;
+}
