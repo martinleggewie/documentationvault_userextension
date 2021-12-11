@@ -147,5 +147,32 @@
       ],
       "key": "M"
     }
+  ],
+  "templater-obsidian:9_meta/templates/dailynote.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl"
+      ],
+      "key": "1"
+    }
+  ],
+  "templater-obsidian:9_meta/templates/meeting.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl"
+      ],
+      "key": "2"
+    }
+  ],
+  "templater-obsidian:9_meta/templates/task.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl"
+      ],
+      "key": "3"
+    }
   ]
 }
