@@ -11,3 +11,6 @@ ln -sf $currentpath/.obsidian/snippets          $currentpath/../obsidian-vault_m
 ln -sf $currentpath/.obsidian/themes            $currentpath/../obsidian-vault_main/.obsidian
 ln -sf $currentpath/.obsidian/appearance.json   $currentpath/../obsidian-vault_main/.obsidian
 ln -sf $currentpath/.obsidian/hotkeys.json      $currentpath/../obsidian-vault_main/.obsidian
+
+ln -sf $currentpath/9_meta/templates/private    $currentpath/../obsidian-vault_main/9_meta/templates
+ln -sf $currentpath/p_diary                     $currentpath/../obsidian-vault_main

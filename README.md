@@ -16,3 +16,5 @@ The following files and folders which are part of this repo are supposed to exte
 - ./obsidian/themes/
 - ./obsidian/appearance.json
 - ./obsidian/hotkeys.json
+- 9_meta/templates/private
+- p_diary/
