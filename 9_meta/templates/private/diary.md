@@ -1,5 +1,11 @@
 ---
-created: {{date}}
+created: <% tp.date.now() %>
+notetype: diary
 ---
 
-# Private diary on {{date}}
+**Topics:** [[TODO]]
+
+**Date:**  [[<% tp.date.now() %>]]
+
+
+# <% tp.file.title %>
