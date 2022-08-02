@@ -148,52 +148,6 @@
       "key": "M"
     }
   ],
-  "templater-obsidian:9_meta/templates/dailynote.md": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "key": "6"
-    }
-  ],
-  "templater-obsidian:9_meta/templates/meeting.md": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "key": "7"
-    }
-  ],
-  "templater-obsidian:9_meta/templates/task.md": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "key": "8"
-    }
-  ],
-  "templater-obsidian:insert-templater": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "key": "T"
-    }
-  ],
-  "templater-obsidian:create-new-note-from-template": [],
-  "templater-obsidian:9_meta/templates/moc.md": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "key": "9"
-    }
-  ],
   "templater-obsidian:9_meta/templates/utils/add-date.md": [
     {
       "modifiers": [
@@ -203,13 +157,60 @@
       "key": "D"
     }
   ],
-  "templater-obsidian:9_meta/templates/utils/add-filename.md": [
+  "obsidian-outliner:indent-list": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "obsidian-outliner:outdent-list": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "obsidian-outliner:fold": [
     {
       "modifiers": [
         "Alt",
-        "Ctrl"
+        "Mod",
+        "Shift"
       ],
-      "key": "L"
+      "key": "ArrowUp"
+    }
+  ],
+  "obsidian-outliner:unfold": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-outliner:move-list-item-down": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-outliner:move-list-item-up": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "ArrowUp"
     }
   ]
 }
